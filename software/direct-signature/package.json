@@ -1,0 +1,11 @@
+{
+  "name": "direct-signature",
+  "version": "0.1.0",
+  "description": "Direct Signature is a tool singing documents.",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "Denys Viliuzhanin (24-08-2016) <dvilyuzhanin@gmail.com>",
+  "license": "GPLv3"
+}

@@ -13,7 +13,7 @@ function KeyStore(rsaKey) {
 }
 
 KeyStore.prototype = {
-	getLength: () => {
+	getLength: function() {
 		return this._rsaKey.keyPair.cache.keyBitLength;
 	}
 };

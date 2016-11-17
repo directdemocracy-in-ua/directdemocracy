@@ -28,6 +28,11 @@ describe('keystore', () => {
 				var keyStore = keystore.importPKCS8(SAMPLE_PRIVATE_KEY_IN_PKCS1_FORMAT);
 				assert.equal(keyStore.getLength(), SAMPLE_KEY_LENGTH);
 			});
+			
+			it('encrypt string', () => {
+				var keyStore = keystore.importPKCS8(SAMPLE_PRIVATE_KEY_IN_PKCS1_FORMAT);
+				assert.equal(keyStore.getLength(), SAMPLE_KEY_LENGTH);
+			});
 		});
 	});
 });

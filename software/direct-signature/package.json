@@ -1,11 +1,17 @@
 {
-  "name": "direct-signature",
-  "version": "0.1.0",
-  "description": "Direct Signature is a tool singing documents.",
-  "main": "js/index.js",
-  "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1"
-  },
-  "author": "Denys Viliuzhanin (24-08-2016) <dvilyuzhanin@gmail.com>",
-  "license": "GPLv3"
+	"name": "direct-signature",
+	"version": "0.1.0",
+	"description": "Direct Signature is a tool singing documents.",
+	"main": "js/index.js",
+	"dependencies": {
+		"node-rsa": "^0.4.2"
+	},
+	"devDependencies": {
+		"mocha": "^3.1.2"
+	},
+	"scripts": {
+		"test": "mocha ./test/*.test.js"
+	},
+	"author": "Denys Viliuzhanin (24-08-2016) <dvilyuzhanin@gmail.com>",
+	"license": "GPLv3"
 }

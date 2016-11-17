@@ -7,5 +7,6 @@ var application = new directSignatureModule.DirectSignatureApplication({
 })
 
 logger.log("Running Application");
-application.start();
+
+application.createKey();
 

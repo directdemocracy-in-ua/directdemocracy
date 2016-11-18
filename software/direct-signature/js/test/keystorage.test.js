@@ -1,6 +1,7 @@
 
-var assert = require('assert');
-var keystore = require('../keystore');
+const assert = require('assert');
+const keystore = require('../keystore');
+const execFile = require('child_process').execFile;
 
 describe('keystore', () => {
 	describe('import', () => {

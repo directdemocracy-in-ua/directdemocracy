@@ -4,7 +4,6 @@
 	"description": "Direct Signature is a tool singing documents.",
 	"main": "js/index.js",
 	"dependencies": {
-		"node-rsa": "^0.4.2"
 	},
 	"devDependencies": {
 		"mocha": "^3.1.2"

@@ -10,7 +10,7 @@
 		"mocha": "^3.1.2"
 	},
 	"scripts": {
-		"test": "mocha ./test/*.test.js"
+		"test": "node test/run.js"
 	},
 	"author": "Denys Viliuzhanin (24-08-2016) <dvilyuzhanin@gmail.com>",
 	"license": "GPLv3"

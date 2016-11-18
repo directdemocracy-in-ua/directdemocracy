@@ -4,11 +4,11 @@ var Mocha = require('mocha'),
 
 // Instantiate a Mocha instance.
 var mocha = new Mocha();
-var testDir = './test';
+var testDir = './js/test';
 // Add each .js file to the mocha instance
 fs.readdirSync(testDir).filter(function(file){
     // Only keep the .js files
-	console.log(file);
+	//console.log(file);
 	const suffix = '.test.js'
     return file.substr(-1 * suffix.length) === suffix;
 

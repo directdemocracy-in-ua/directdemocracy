@@ -1,6 +1,6 @@
 
 var assert = require('assert');
-var keystore = require('../js/keystore');
+var keystore = require('../keystore');
 
 describe('keystore', () => {
 	describe('import', () => {

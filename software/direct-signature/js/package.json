@@ -6,7 +6,8 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"mocha": "^3.1.2"
+		"mocha": "^3.1.2",
+		"node-rsa": "^0.4.2"
 	},
 	"scripts": {
 		"test": "node test/run.js"
